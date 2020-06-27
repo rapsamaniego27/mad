@@ -1,17 +1,37 @@
-<?php 
+<?php
 /* Template Name: Home */
 get_header(); ?>
 
-<div id="hero">
-  <div class="container d-flex align-items-center justify-content-center h-100">
-    <h1>Welcome to my shop</h1>
+
+<div class="container mt-5">
+  <div class="row">
+    <section>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora vel distinctio hic ullam quia. Perferendis harum ut quis tempora tenetur obcaecati unde numquam! Beatae corrupti praesentium facilis repudiandae soluta!
+      <br><br>
+    </section>
   </div>
 </div>
 
-<div class="content">
-  <div class="container">
-    <h2>Hello</h2>
-  </div>
-</div>
 
 <?php get_footer(); ?>

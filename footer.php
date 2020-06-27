@@ -1,7 +1,12 @@
 
+  <?php wp_footer(); ?>
+  </div> <!-- End of Main -->
+  
+  <footer>
+    footer
+  </footer>
+</div> <!-- End of Wrapper -->
 
-<footer></footer>
-
-<?php wp_footer(); ?>
 </body>
+
 </html>
