@@ -1,5 +1,14 @@
 <?php get_header(); ?>
 
-<h2>This is the index page</h2>
+<div class="container mt-5">
+ <div class="row">
+  <h2>Index Page</h2>
+
+  <!-- Template for Displaying Posts -->
+  <?php get_template_part('template-parts/content', 'posts') ?>
+
+
+ </div>
+</div>
 
 <?php get_footer(); ?>

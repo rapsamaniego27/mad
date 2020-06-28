@@ -43,6 +43,11 @@ add_theme_support( 'post-formats', $post_formats);
 
 
 // Add image sizes
+add_image_size('blog_image', 1200, 630, false);
+add_image_size('hero_image', 2880, 1500, false);
+add_image_size('landscape_image', 900, 1200, false);
+add_image_size('portrait_image', 1200, 900, false);
+add_image_size('slideshow_image', 2800, 1500, false);
 add_image_size('post_image', 1100, 550, false);
 
 

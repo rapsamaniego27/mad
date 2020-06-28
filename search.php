@@ -2,41 +2,13 @@
 
 
 <div class="container mt-5">
- <div class="row">
-  <h2>Search Results for <em>"<?php echo get_search_query(); ?>"</em> </h2>
-  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+  <div class="row">
+    <h2>Search Results for <em>"<?php echo get_search_query(); ?>"</em> </h2>
 
-    <div class="blog-post mt-5">
-     <?php if (has_post_thumbnail()) : ?>
-      <img src="<?php the_post_thumbnail_url('post_image') ?>" alt="" class="img-fluid mb-5">
-     <?php endif ?>
-
-     <a href="<?php the_permalink(); ?>">
-      <h1><?php the_title(); ?></h1>
-     </a>
-     <?php the_excerpt(); ?>
-    </div>
-
-  <?php endwhile;
-  else : endif; ?>
-
-
-
-  <div class="pagination mt-3">
-   <?php
-   global $wp_query;
-
-   $big = 999999999; // need an unlikely integer
-
-   echo paginate_links(array(
-    'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
-    'format' => '?paged=%#%',
-    'current' => max(1, get_query_var('paged')),
-    'total' => $wp_query->max_num_pages
-   ));
-   ?>
+    <!-- Template for Displaying Posts -->
+    <?php get_template_part('template-parts/content', 'posts') ?>
+    
   </div>
- </div>
 </div>
 
 <?php get_footer(); ?>

@@ -21,8 +21,8 @@
             <div class="col header-container">
               <div class="logo-container">
                 <?php if (is_active_sidebar('header-logo')) : ?>
-                    <?php dynamic_sidebar('header-logo'); ?>
-                  <?php endif; ?>
+                  <?php dynamic_sidebar('header-logo'); ?>
+                <?php endif; ?>
               </div>
               <?php
               wp_nav_menu([
