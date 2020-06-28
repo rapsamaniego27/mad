@@ -1094,6 +1094,18 @@ header {
 footer {
   background-color: #000;
   color: #fff;
+  height: 100px;
+}
+
+.bottom-menu {
+  display: flex;
+  justify-content: center;
+}
+.bottom-menu li a {
+  color: #fff;
+}
+.bottom-menu li {
+  margin: 0 20px;
 }
 
 .btn-success {

@@ -2,4 +2,18 @@
 footer{
   background-color:#000;
   color:#fff;
+  height:100px;
+}
+
+.bottom-menu{
+  display:flex;
+  justify-content: center;
+
+  li a{
+    color:$white;
+  }
+
+  li{
+    margin:0 20px;
+  }
 }
