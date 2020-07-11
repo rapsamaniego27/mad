@@ -55,8 +55,12 @@ add_image_size('post_image', 1100, 550, false);
 /* End of adding a widget */
 
 
-require_once(__DIR__ . '/includes/widgets.php');
+require_once(__DIR__ . '/includes/acf.php');
+require_once(__DIR__ . '/includes/admin.php');
+require_once(__DIR__ . '/includes/custom.php');
+require_once(__DIR__ . '/includes/hooks.php');
 require_once(__DIR__ . '/includes/menu.php');
-require_once(__DIR__ . '/includes/woo.php');
 require_once(__DIR__ . '/includes/shortcodes.php');
 require_once(__DIR__ . '/includes/template-tags.php');
+require_once(__DIR__ . '/includes/widgets.php');
+require_once(__DIR__ . '/includes/woo.php');

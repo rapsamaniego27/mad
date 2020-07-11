@@ -1,5 +1,5 @@
 <?php
-
+/* Widget Registration */
 //Add a widget
 register_sidebar([
   'name' => 'Page Sidebar',

@@ -1,0 +1,3 @@
+<!-- Admin related functions -->
+
+<?php 
