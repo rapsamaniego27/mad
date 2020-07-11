@@ -1,0 +1,3 @@
+<?php
+
+/* Shortcode generations here */
